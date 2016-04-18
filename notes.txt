@@ -1,0 +1,24 @@
+gradlew assembleDebug
+—> build project (debug only)
+
+gradlew tasks
+—> compile / show available grade tasks
+
+gradlew installDebug
+
+adb devices
+adb install demoapp-debug.apk
+—> install apk to device
+—> may need to specify device
+—> add -r to replace existing app on phone
+
+gradlew installDebug
+—> build / install on all connected devices
+
+
+—————————————————————————————
+Other notes
+—————————————————————————————
+- Set activity layout inside onCreate method (i.e., R.layout.whatever)
+- Can configure properties inside AndroidManifest (MyProject/src/main/AndroidManifest.xml) such as icon name / location, entry point, etc.
+- open logical from cmd line…. open android install location, and navigate to tools/monitor.sh (.bat on windows)
