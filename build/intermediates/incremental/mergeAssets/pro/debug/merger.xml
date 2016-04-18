@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/lfallon/Documents/AndroidTemp/demoapp/src/main/assets"/></dataSet><dataSet config="pro"><source path="/Users/lfallon/Documents/AndroidTemp/demoapp/src/pro/assets"/></dataSet><dataSet config="debug"><source path="/Users/lfallon/Documents/AndroidTemp/demoapp/src/debug/assets"/></dataSet><dataSet config="proDebug"><source path="/Users/lfallon/Documents/AndroidTemp/demoapp/src/proDebug/assets"/></dataSet></merger>
